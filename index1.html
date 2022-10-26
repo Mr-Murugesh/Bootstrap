@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid col-10">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <b>Responsive Website</b>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="list-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!------ Home -------->
+        <section id="home">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 my-3 ">
+                    <h1 class="display-4">Welcome to<br><span>Responsive</span><br>Website</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque expedita quas explicabo assumenda
+                        reprehenderit animi sint voluptatibus odio, similique blanditiis!</p>
+                    <button class="btn btn-primary">Get-Started</button>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 my-3 ">
+                    <img src="img5.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!------ About -------->
+
+        <section id="about">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12 my-3">
+                    <img src="img4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 my-3">
+                    <h1 class="my-5 display-4">About</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque expedita quas explicabo assumenda
+                        reprehenderit animi sint voluptatibus odio, similique blanditiis!</p>
+                    <button class="btn btn-warning">Get-Started</button>
+
+                </div>
+            </div>
+        </section>
+
+        <!------------service---------->
+        <section id="service">
+            <div class="row">
+                <h1 class="text-center display-4">Service</h1>
+                <div class="col-lg-4 my-4">
+                    <div class="card">
+                        <img src="img6.jpg" alt="">
+                        <div class="card-body">
+                            <h1 class="display-4">Learning</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi!</p>
+                            <button class="btn btn-success">Learning</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card my-4">
+                        <img src="traning.webp" alt="">
+                        <div class="card-body">
+                            <h1 class="display-4">Traning</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi!</p>
+                            <button class="btn btn-success">Traning</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card my-4">
+                        <img src="professional.jpg" alt="">
+                        <div class="card-body">
+                            <h1 class="display-4">Professional</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi!</p>
+                            <button class="btn btn-success">Professional</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ---------contact---- -->
+        <section id="contact">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12 my-5">
+                    <form class="card-shadow">
+                        <div class="mb-3 text-center">
+                            <h1 class="display-4">Contact Form</h1>
+                        </div>
+                        <div class="mb-3">
+                        <label>Username</label>
+                        <input type="text" placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-success">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body{
+    
+    /* background-color: linear-gradient(to right(rgb(73, 131, 240)),(rgb(250, 139, 244))); */
+    background-image: linear-gradient(to right,rgb(73, 131, 240),rgb(250, 139, 244));
+}
+span{
+    color:rgb(250, 139, 244);
+}
+b{
+    color: purple;
+}
+#about h1{
+    color:rgb(250, 139, 244);
+}
+.mb-3 label{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+}
+.mb-3 button{
+    margin-left: 150px;
+}
+.card img{
+    height: 300px;
+}
